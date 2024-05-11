@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- con archivo externo css -->
+
+    <title>Conversor de Monedas</title>
+    <!-- se cambia el title -->
+  </head>
+  <body>
+    <div class="titulo">
+      <hr />
+      <h1>Conversor de monedas Nacional</h1>
+      <hr />
+    </div>
+
+    <div class="container">
+      <div class="labelinput1">
+        <label class="label1" for="monto">Pesos CLP</label>
+        <input
+          id="monto"
+          class="input1"
+          placeholder="Ingrese el monto en CLP"
+          type="number"
+        />
+      </div>
+
+      <div class="labelselect1">
+        <label class="label2" for="moneda">Moneda a convertir</label>
+        <select id="moneda" class="select1" name="">
+          <option value="" disabled selected>Seleccione moneda</option>
+          <option value="dolar">Dolar</option>
+          <option value="euro">Euro</option>
+        </select>
+      </div>
+
+      <div class="calculocontar">
+        <button id="calculo" class="btn1">Buscar</button>
+        <p id="resultado">...</p>
+      </div>
+    </div>
+    <!-- termina el container -->
+    <section>
+      <canvas id="myChart"></canvas
+      ><!-- para el grafico -->
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- para el grafico, cargar primero chart despues renderizar -->
+    <script src="assets/js/script.js"></script>
+    <!-- con archivo externo js -->
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  height: 52px;
+  padding: 2px;
+}
+
+h1 {
+  font-size: 28px;
+  padding: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+  width: 290px;
+  height: 230px;
+  padding: 8px;
+  background-color: rgb(7, 112, 98);
+  border-radius: 5px;
+  border: none;
+}
+
+.labelinput1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.label1 {
+  font-size: 22px;
+  padding: 2px;
+  text-align: center;
+}
+
+.input1 {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.labelselect1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label2 {
+  font-size: 22px;
+  padding: 4px;
+}
+
+.select1 {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: rgb(7, 186, 198);
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #1995bb; /* color de fondo */
+}
+
+#resultado {
+  font-size: 18px;
+}
+
+#myChart {
+  width: 680px;
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
